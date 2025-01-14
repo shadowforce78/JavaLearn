@@ -1,0 +1,1901 @@
+{
+    "config": {
+        "passerelle_version": "6:3:4",
+        "histogramme": true,
+        "message_non_publication_releve": "Le responsable de votre formation a décidé de ne pas publier le relevé de notes de ce semestre.",
+        "releve_PDF": true,
+        "liste_dep_publi_PDF": "",
+        "etudiant_modif_photo": true,
+        "acces_enseignants": true,
+        "cloisonner_enseignants": false,
+        "analystics_interne": false,
+        "envoi_donnees_version": true,
+        "analyse_temps_requetes": false,
+        "nom_IUT": "IUT de Velizy",
+        "doc_afficher_nip": true,
+        "doc_afficher_id": true,
+        "doc_afficher_date_naissance": true,
+        "idReg": "^.+$",
+        "idPlaceHolder": "Identifiant CAS",
+        "idInfo": "Ajoutez l\\x27identifiant CAS",
+        "nameReg": "^[A-Z][a-zA-Z\\xc0-\\xff\\x27 -]*$",
+        "namePlaceHolder": "Nom Prénom",
+        "nameInfo": "Nom et prénom de l\\x27utilisateur",
+        "module_absences": true,
+        "afficher_absences": true,
+        "data_absences_scodoc": true,
+        "metrique_absences": "passerelle",
+        "autoriser_justificatifs": false,
+        "liste_dep_ok_justificatifs": "",
+        "liste_dep_publi_absences": "TEMA",
+        "message_rapport_absences": "Les causes de l’absence doivent être notifiées par écrit à l'aide d'un justificatif dans les 48 heures à compter du début de l’absence au secrétariat du département. Voir règlement intérieur pour les motifs légitimes d'absence.",
+        "message_justificatifs": "",
+        "absence_heureDebut": 8,
+        "absence_heureFin": 20,
+        "absence_pas": 0.5,
+        "absence_dureeSeance": 2,
+        "session": "22401313",
+        "name": "Planque Adam",
+        "statut": 10
+    },
+    "auth": {
+        "session": "22401313",
+        "name": "Planque Adam",
+        "statut": 10
+    },
+    "semestres": [
+        {
+            "titre": "BUT Info",
+            "formsemestre_id": 507,
+            "semestre_id": 1,
+            "annee_scolaire": "2024/2025"
+        }
+    ],
+    "relevé": {
+        "version": "0",
+        "type": "BUT",
+        "date": "2025-01-14T13:41:48.113405+01:00",
+        "publie": true,
+        "etat_inscription": "I",
+        "etudiant": {
+            "boursier": "",
+            "civilite_etat_civil": null,
+            "civilite": "M",
+            "code_ine": "",
+            "code_nip": "22401313",
+            "date_naissance": "19/03/2007",
+            "dept_acronym": "INFO",
+            "dept_id": 4,
+            "dept_naissance": "",
+            "email": "planque.adam@gmail.com",
+            "emailperso": "",
+            "etat_civil": "M. ADAM PLANQUE",
+            "etudid": 5724,
+            "lieu_naissance": "",
+            "nationalite": "",
+            "nom": "PLANQUE",
+            "nomprenom": "M. Adam PLANQUE",
+            "prenom_etat_civil": null,
+            "prenom": "ADAM",
+            "fiche_url": "/ScoDoc/INFO/Scolarite/fiche_etud?etudid=5724",
+            "photo_url": "/ScoDoc/INFO/Scolarite/get_photo_image?etudid=5724&size=small",
+            "id": 5724,
+            "domicile": "18 Rue Jean Jacques Rousseau",
+            "villedomicile": "MONTIGNY-LE-BRETONNEUX",
+            "telephone": "+33766343115",
+            "fax": "",
+            "description": "infos portail",
+            "codepostaldomicile": "78180",
+            "paysdomicile": "FRANCE",
+            "telephonemobile": "",
+            "typeadresse": "domicile"
+        },
+        "formation": {
+            "id": 28,
+            "acronyme": "BUT Info",
+            "titre_officiel": "BUT Informatique",
+            "titre": "BUT Informatique"
+        },
+        "formsemestre_id": 507,
+        "options": {
+            "show_abs": true,
+            "show_abs_modules": false,
+            "show_ects": false,
+            "show_codemodules": false,
+            "show_matieres": false,
+            "show_rangs": true,
+            "show_ue_rangs": true,
+            "show_mod_rangs": true,
+            "show_moypromo": false,
+            "show_minmax": true,
+            "show_minmax_mod": true,
+            "show_minmax_eval": false,
+            "show_coef": true,
+            "show_ue_cap_details": true,
+            "show_ue_cap_current": false,
+            "show_temporary": true,
+            "temporary_txt": "Provisoire",
+            "show_uevalid": true,
+            "show_date_inscr": false,
+            "block_moyenne_generale": true,
+            "bgcolor": "white"
+        },
+        "ressources": {
+            "R1.01": {
+                "id": 7574,
+                "titre": "Initiation au dev.",
+                "code_apogee": "IN1R01",
+                "url": "/ScoDoc/INFO/Scolarite/Notes/moduleimpl_status?moduleimpl_id=7574",
+                "moyenne": {},
+                "evaluations": []
+            },
+            "R1.02": {
+                "id": 7575,
+                "titre": "Développement d'interfaces web",
+                "code_apogee": "IN1R02",
+                "url": "/ScoDoc/INFO/Scolarite/Notes/moduleimpl_status?moduleimpl_id=7575",
+                "moyenne": {},
+                "evaluations": [
+                    {
+                        "id": 17226,
+                        "coef": "01.00",
+                        "date_debut": "2024-10-04T00:00:00+02:00",
+                        "date_fin": "2024-10-04T00:00:00+02:00",
+                        "description": "QCM 1",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "15.50",
+                            "min": "04.50",
+                            "max": "17.50",
+                            "moy": "11.53"
+                        },
+                        "poids": {
+                            "UE1.1": 1,
+                            "UE1.2": 0,
+                            "UE1.3": 0,
+                            "UE1.4": 0,
+                            "UE1.5": 1,
+                            "UE1.6": 1
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17226",
+                        "date": "2024-10-04T00:00:00+02:00",
+                        "heure_debut": "00:00",
+                        "heure_fin": "00:00"
+                    },
+                    {
+                        "id": 17263,
+                        "coef": "01.00",
+                        "date_debut": "2024-10-04T00:00:00+02:00",
+                        "date_fin": "2024-10-04T00:00:00+02:00",
+                        "description": "DS 1",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "06.50",
+                            "min": "03.00",
+                            "max": "17.00",
+                            "moy": "08.41"
+                        },
+                        "poids": {
+                            "UE1.1": 1,
+                            "UE1.2": 0,
+                            "UE1.3": 0,
+                            "UE1.4": 0,
+                            "UE1.5": 1,
+                            "UE1.6": 1
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17263",
+                        "date": "2024-10-04T00:00:00+02:00",
+                        "heure_debut": "00:00",
+                        "heure_fin": "00:00"
+                    },
+                    {
+                        "id": 17338,
+                        "coef": "01.00",
+                        "date_debut": "2024-11-19T08:00:00+01:00",
+                        "date_fin": "2024-11-19T10:00:00+01:00",
+                        "description": "DS 2",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "11.00",
+                            "min": "01.25",
+                            "max": "16.75",
+                            "moy": "09.11"
+                        },
+                        "poids": {
+                            "UE1.1": 1,
+                            "UE1.2": 0,
+                            "UE1.3": 0,
+                            "UE1.4": 0,
+                            "UE1.5": 1,
+                            "UE1.6": 1
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17338",
+                        "date": "2024-11-19T08:00:00+01:00",
+                        "heure_debut": "08:00",
+                        "heure_fin": "10:00"
+                    }
+                ]
+            },
+            "R1.03": {
+                "id": 7576,
+                "titre": "Intro. archi.",
+                "code_apogee": "IN1R03",
+                "url": "/ScoDoc/INFO/Scolarite/Notes/moduleimpl_status?moduleimpl_id=7576",
+                "moyenne": {},
+                "evaluations": []
+            },
+            "R1.04": {
+                "id": 7577,
+                "titre": "Intro. systèmes",
+                "code_apogee": "IN1R04",
+                "url": "/ScoDoc/INFO/Scolarite/Notes/moduleimpl_status?moduleimpl_id=7577",
+                "moyenne": {},
+                "evaluations": [
+                    {
+                        "id": 17248,
+                        "coef": "01.00",
+                        "date_debut": "2024-10-09T00:00:00+02:00",
+                        "date_fin": "2024-10-09T00:00:00+02:00",
+                        "description": "Contrôle Numération",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "14.00",
+                            "min": "04.00",
+                            "max": "20.00",
+                            "moy": "15.95"
+                        },
+                        "poids": {
+                            "UE1.1": 0,
+                            "UE1.2": 1,
+                            "UE1.3": 1,
+                            "UE1.4": 0,
+                            "UE1.5": 0,
+                            "UE1.6": 0
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17248",
+                        "date": "2024-10-09T00:00:00+02:00",
+                        "heure_debut": "00:00",
+                        "heure_fin": "00:00"
+                    },
+                    {
+                        "id": 17375,
+                        "coef": "00.50",
+                        "date_debut": "2024-11-26T00:00:00+01:00",
+                        "date_fin": "2024-11-26T00:00:00+01:00",
+                        "description": "TP3",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "20.00",
+                            "min": "09.19",
+                            "max": "20.00",
+                            "moy": "18.78"
+                        },
+                        "poids": {
+                            "UE1.1": 0,
+                            "UE1.2": 1,
+                            "UE1.3": 1,
+                            "UE1.4": 0,
+                            "UE1.5": 0,
+                            "UE1.6": 0
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17375",
+                        "date": "2024-11-26T00:00:00+01:00",
+                        "heure_debut": "00:00",
+                        "heure_fin": "00:00"
+                    }
+                ]
+            },
+            "R1.05": {
+                "id": 7578,
+                "titre": "Introduction BD",
+                "code_apogee": "IN1R05",
+                "url": "/ScoDoc/INFO/Scolarite/Notes/moduleimpl_status?moduleimpl_id=7578",
+                "moyenne": {},
+                "evaluations": [
+                    {
+                        "id": 17258,
+                        "coef": "01.00",
+                        "date_debut": "2024-10-07T11:00:00+02:00",
+                        "date_fin": "2024-10-07T12:00:00+02:00",
+                        "description": "Interro 1",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "05.00",
+                            "min": "01.00",
+                            "max": "20.00",
+                            "moy": "08.95"
+                        },
+                        "poids": {
+                            "UE1.1": 0,
+                            "UE1.2": 0,
+                            "UE1.3": 0,
+                            "UE1.4": 1,
+                            "UE1.5": 0,
+                            "UE1.6": 0
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17258",
+                        "date": "2024-10-07T11:00:00+02:00",
+                        "heure_debut": "11:00",
+                        "heure_fin": "12:00"
+                    },
+                    {
+                        "id": 17309,
+                        "coef": "03.00",
+                        "date_debut": "2024-11-04T10:30:00+01:00",
+                        "date_fin": "2024-11-04T12:30:00+01:00",
+                        "description": "DS 1",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "09.50",
+                            "min": "03.00",
+                            "max": "20.00",
+                            "moy": "12.01"
+                        },
+                        "poids": {
+                            "UE1.1": 0,
+                            "UE1.2": 0,
+                            "UE1.3": 0,
+                            "UE1.4": 1,
+                            "UE1.5": 0,
+                            "UE1.6": 0
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17309",
+                        "date": "2024-11-04T10:30:00+01:00",
+                        "heure_debut": "10:30",
+                        "heure_fin": "12:30"
+                    }
+                ]
+            },
+            "R1.06": {
+                "id": 7579,
+                "titre": "Maths discrètes",
+                "code_apogee": "IN1RO6",
+                "url": "/ScoDoc/INFO/Scolarite/Notes/moduleimpl_status?moduleimpl_id=7579",
+                "moyenne": {},
+                "evaluations": [
+                    {
+                        "id": 17215,
+                        "coef": "01.00",
+                        "date_debut": "2024-09-27T08:30:00+02:00",
+                        "date_fin": "2024-09-27T10:00:00+02:00",
+                        "description": "C1 ",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "12.50",
+                            "min": "05.00",
+                            "max": "20.00",
+                            "moy": "14.24"
+                        },
+                        "poids": {
+                            "UE1.1": 0,
+                            "UE1.2": 1,
+                            "UE1.3": 0,
+                            "UE1.4": 1,
+                            "UE1.5": 0,
+                            "UE1.6": 0
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17215",
+                        "date": "2024-09-27T08:30:00+02:00",
+                        "heure_debut": "08:30",
+                        "heure_fin": "10:00"
+                    },
+                    {
+                        "id": 17271,
+                        "coef": "02.00",
+                        "date_debut": "2024-10-25T08:30:00+02:00",
+                        "date_fin": "2024-10-25T10:00:00+02:00",
+                        "description": "C2 (jeudi pour le groupe B)",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "14.00",
+                            "min": "04.50",
+                            "max": "19.00",
+                            "moy": "10.98"
+                        },
+                        "poids": {
+                            "UE1.1": 0,
+                            "UE1.2": 1,
+                            "UE1.3": 0,
+                            "UE1.4": 1,
+                            "UE1.5": 0,
+                            "UE1.6": 0
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17271",
+                        "date": "2024-10-25T08:30:00+02:00",
+                        "heure_debut": "08:30",
+                        "heure_fin": "10:00"
+                    },
+                    {
+                        "id": 17365,
+                        "coef": "03.00",
+                        "date_debut": "2024-11-18T13:00:00+01:00",
+                        "date_fin": "2024-11-18T14:30:00+01:00",
+                        "description": "DS",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "04.00",
+                            "min": "00.00",
+                            "max": "20.00",
+                            "moy": "11.04"
+                        },
+                        "poids": {
+                            "UE1.1": 0,
+                            "UE1.2": 1,
+                            "UE1.3": 0,
+                            "UE1.4": 1,
+                            "UE1.5": 0,
+                            "UE1.6": 0
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17365",
+                        "date": "2024-11-18T13:00:00+01:00",
+                        "heure_debut": "13:00",
+                        "heure_fin": "14:30"
+                    }
+                ]
+            },
+            "R1.07": {
+                "id": 7580,
+                "titre": "Outils fondamentaux",
+                "code_apogee": "IN1R07",
+                "url": "/ScoDoc/INFO/Scolarite/Notes/moduleimpl_status?moduleimpl_id=7580",
+                "moyenne": {},
+                "evaluations": [
+                    {
+                        "id": 17468,
+                        "coef": "01.00",
+                        "date_debut": "2024-12-19T08:15:00+01:00",
+                        "date_fin": "2024-12-19T10:00:00+01:00",
+                        "description": "C1",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "02.25",
+                            "min": "01.50",
+                            "max": "20.00",
+                            "moy": "12.63"
+                        },
+                        "poids": {
+                            "UE1.1": 0,
+                            "UE1.2": 1,
+                            "UE1.3": 0,
+                            "UE1.4": 0,
+                            "UE1.5": 0,
+                            "UE1.6": 0
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17468",
+                        "date": "2024-12-19T08:15:00+01:00",
+                        "heure_debut": "08:15",
+                        "heure_fin": "10:00"
+                    }
+                ]
+            },
+            "R1.08": {
+                "id": 7581,
+                "titre": "Gestion proj. orga.",
+                "code_apogee": "IN1R08",
+                "url": "/ScoDoc/INFO/Scolarite/Notes/moduleimpl_status?moduleimpl_id=7581",
+                "moyenne": {},
+                "evaluations": [
+                    {
+                        "id": 17392,
+                        "coef": "01.00",
+                        "date_debut": "2024-12-02T13:00:00+01:00",
+                        "date_fin": "2024-12-02T15:00:00+01:00",
+                        "description": "DS Management n°1",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "06.90",
+                            "min": "02.00",
+                            "max": "19.50",
+                            "moy": "13.06"
+                        },
+                        "poids": {
+                            "UE1.1": 0,
+                            "UE1.2": 0,
+                            "UE1.3": 0,
+                            "UE1.4": 0,
+                            "UE1.5": 1,
+                            "UE1.6": 1
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17392",
+                        "date": "2024-12-02T13:00:00+01:00",
+                        "heure_debut": "13:00",
+                        "heure_fin": "15:00"
+                    }
+                ]
+            },
+            "R1.09": {
+                "id": 7582,
+                "titre": "Économie",
+                "code_apogee": "IN1R09",
+                "url": "/ScoDoc/INFO/Scolarite/Notes/moduleimpl_status?moduleimpl_id=7582",
+                "moyenne": {},
+                "evaluations": [
+                    {
+                        "id": 17236,
+                        "coef": "01.00",
+                        "date_debut": "2024-10-07T13:00:00+02:00",
+                        "date_fin": "2024-10-07T14:00:00+02:00",
+                        "description": "DS1 Economie",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "07.00",
+                            "min": "03.00",
+                            "max": "19.00",
+                            "moy": "11.35"
+                        },
+                        "poids": {
+                            "UE1.1": 0,
+                            "UE1.2": 0,
+                            "UE1.3": 0,
+                            "UE1.4": 1,
+                            "UE1.5": 0,
+                            "UE1.6": 1
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17236",
+                        "date": "2024-10-07T13:00:00+02:00",
+                        "heure_debut": "13:00",
+                        "heure_fin": "14:00"
+                    },
+                    {
+                        "id": 17294,
+                        "coef": "01.00",
+                        "date_debut": "2024-11-04T14:00:00+01:00",
+                        "date_fin": "2024-11-04T15:00:00+01:00",
+                        "description": "DS économie n°2",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "07.50",
+                            "min": "01.75",
+                            "max": "19.00",
+                            "moy": "10.81"
+                        },
+                        "poids": {
+                            "UE1.1": 0,
+                            "UE1.2": 0,
+                            "UE1.3": 0,
+                            "UE1.4": 1,
+                            "UE1.5": 0,
+                            "UE1.6": 1
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17294",
+                        "date": "2024-11-04T14:00:00+01:00",
+                        "heure_debut": "14:00",
+                        "heure_fin": "15:00"
+                    }
+                ]
+            },
+            "R1.10": {
+                "id": 7583,
+                "titre": "Anglais technique",
+                "code_apogee": "IN1R10",
+                "url": "/ScoDoc/INFO/Scolarite/Notes/moduleimpl_status?moduleimpl_id=7583",
+                "moyenne": {},
+                "evaluations": [
+                    {
+                        "id": 17355,
+                        "coef": "01.00",
+                        "date_debut": "2024-11-20T13:45:00+01:00",
+                        "date_fin": "2024-11-20T14:15:00+01:00",
+                        "description": "TEST 1",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "~",
+                            "min": "05.33",
+                            "max": "20.00",
+                            "moy": "13.60"
+                        },
+                        "poids": {
+                            "UE1.1": 1,
+                            "UE1.2": 0,
+                            "UE1.3": 1,
+                            "UE1.4": 0,
+                            "UE1.5": 0,
+                            "UE1.6": 1
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17355",
+                        "date": "2024-11-20T13:45:00+01:00",
+                        "heure_debut": "13:45",
+                        "heure_fin": "14:15"
+                    },
+                    {
+                        "id": 17490,
+                        "coef": "01.00",
+                        "date_debut": "2024-11-08T00:00:00+01:00",
+                        "date_fin": "2024-11-08T00:00:00+01:00",
+                        "description": "TRANSCRIPTIONS",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "~",
+                            "min": "08.00",
+                            "max": "20.00",
+                            "moy": "15.35"
+                        },
+                        "poids": {
+                            "UE1.1": 1,
+                            "UE1.2": 0,
+                            "UE1.3": 1,
+                            "UE1.4": 0,
+                            "UE1.5": 0,
+                            "UE1.6": 1
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17490",
+                        "date": "2024-11-08T00:00:00+01:00",
+                        "heure_debut": "00:00",
+                        "heure_fin": "00:00"
+                    },
+                    {
+                        "id": 17491,
+                        "coef": "01.00",
+                        "date_debut": "2024-12-20T00:00:00+01:00",
+                        "date_fin": "2024-12-20T00:00:00+01:00",
+                        "description": "TEST 2",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "~",
+                            "min": "04.50",
+                            "max": "20.00",
+                            "moy": "13.99"
+                        },
+                        "poids": {
+                            "UE1.1": 1,
+                            "UE1.2": 0,
+                            "UE1.3": 1,
+                            "UE1.4": 0,
+                            "UE1.5": 0,
+                            "UE1.6": 1
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17491",
+                        "date": "2024-12-20T00:00:00+01:00",
+                        "heure_debut": "00:00",
+                        "heure_fin": "00:00"
+                    },
+                    {
+                        "id": 17492,
+                        "coef": "01.00",
+                        "date_debut": "2024-12-20T00:00:00+01:00",
+                        "date_fin": "2024-12-20T00:00:00+01:00",
+                        "description": "TUTORIELS - videos",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "~",
+                            "min": "10.00",
+                            "max": "18.00",
+                            "moy": "15.79"
+                        },
+                        "poids": {
+                            "UE1.1": 1,
+                            "UE1.2": 0,
+                            "UE1.3": 1,
+                            "UE1.4": 0,
+                            "UE1.5": 0,
+                            "UE1.6": 1
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17492",
+                        "date": "2024-12-20T00:00:00+01:00",
+                        "heure_debut": "00:00",
+                        "heure_fin": "00:00"
+                    },
+                    {
+                        "id": 17513,
+                        "coef": "01.00",
+                        "date_debut": "2025-01-08T08:00:00+01:00",
+                        "date_fin": "2025-01-08T09:00:00+01:00",
+                        "description": "DS SAE",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "~",
+                            "min": "08.00",
+                            "max": "18.50",
+                            "moy": "13.32"
+                        },
+                        "poids": {
+                            "UE1.1": 1,
+                            "UE1.2": 0,
+                            "UE1.3": 1,
+                            "UE1.4": 0,
+                            "UE1.5": 0,
+                            "UE1.6": 1
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17513",
+                        "date": "2025-01-08T08:00:00+01:00",
+                        "heure_debut": "08:00",
+                        "heure_fin": "09:00"
+                    }
+                ]
+            },
+            "R1.11": {
+                "id": 7584,
+                "titre": "Bases de la comm.",
+                "code_apogee": "IN1R11",
+                "url": "/ScoDoc/INFO/Scolarite/Notes/moduleimpl_status?moduleimpl_id=7584",
+                "moyenne": {},
+                "evaluations": []
+            },
+            "R1.12": {
+                "id": 7585,
+                "titre": "PPP",
+                "code_apogee": "IN1R12",
+                "url": "/ScoDoc/INFO/Scolarite/Notes/moduleimpl_status?moduleimpl_id=7585",
+                "moyenne": {},
+                "evaluations": [
+                    {
+                        "id": 17400,
+                        "coef": "01.00",
+                        "date_debut": "2024-12-03T00:00:00+01:00",
+                        "date_fin": "2024-12-03T00:00:00+01:00",
+                        "description": "Travail PPP Semestre 1",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "14.50",
+                            "min": "00.00",
+                            "max": "19.00",
+                            "moy": "14.64"
+                        },
+                        "poids": {
+                            "UE1.1": 0,
+                            "UE1.2": 0,
+                            "UE1.3": 0,
+                            "UE1.4": 0,
+                            "UE1.5": 0,
+                            "UE1.6": 1
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17400",
+                        "date": "2024-12-03T00:00:00+01:00",
+                        "heure_debut": "00:00",
+                        "heure_fin": "00:00"
+                    }
+                ]
+            }
+        },
+        "saes": {
+            "SAE1.01": {
+                "id": 7586,
+                "titre": "Implémentation d'un besoin client",
+                "code_apogee": "IN1SA01",
+                "url": "/ScoDoc/INFO/Scolarite/Notes/moduleimpl_status?moduleimpl_id=7586",
+                "moyenne": {},
+                "evaluations": []
+            },
+            "SAE1.02": {
+                "id": 7587,
+                "titre": "Comparaison d'algo",
+                "code_apogee": "IN1SA02",
+                "url": "/ScoDoc/INFO/Scolarite/Notes/moduleimpl_status?moduleimpl_id=7587",
+                "moyenne": {},
+                "evaluations": []
+            },
+            "SAE1.03": {
+                "id": 7588,
+                "titre": "Installation poste",
+                "code_apogee": "IN1SA03",
+                "url": "/ScoDoc/INFO/Scolarite/Notes/moduleimpl_status?moduleimpl_id=7588",
+                "moyenne": {},
+                "evaluations": [
+                    {
+                        "id": 17376,
+                        "coef": "01.00",
+                        "date_debut": "2024-10-26T08:00:00+02:00",
+                        "date_fin": "2024-10-26T18:00:00+02:00",
+                        "description": " Note de Compte Rendu",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "12.56",
+                            "min": "02.40",
+                            "max": "17.92",
+                            "moy": "13.60"
+                        },
+                        "poids": {
+                            "UE1.1": 0,
+                            "UE1.2": 0,
+                            "UE1.3": 1,
+                            "UE1.4": 0,
+                            "UE1.5": 0,
+                            "UE1.6": 0
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17376",
+                        "date": "2024-10-26T08:00:00+02:00",
+                        "heure_debut": "08:00",
+                        "heure_fin": "18:00"
+                    }
+                ]
+            },
+            "SAE1.04": {
+                "id": 7589,
+                "titre": "Création BD",
+                "code_apogee": "IN1SA04",
+                "url": "/ScoDoc/INFO/Scolarite/Notes/moduleimpl_status?moduleimpl_id=7589",
+                "moyenne": {},
+                "evaluations": []
+            },
+            "SAE1.05": {
+                "id": 7590,
+                "titre": "Recueil de besoins",
+                "code_apogee": "IN1SA05",
+                "url": "/ScoDoc/INFO/Scolarite/Notes/moduleimpl_status?moduleimpl_id=7590",
+                "moyenne": {},
+                "evaluations": [
+                    {
+                        "id": 17525,
+                        "coef": "01.00",
+                        "date_debut": "2025-01-14T00:00:00+01:00",
+                        "date_fin": "2025-01-14T00:00:00+01:00",
+                        "description": "Partie Gestion de projet",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "~",
+                            "min": "~",
+                            "max": "~",
+                            "moy": "~"
+                        },
+                        "poids": {
+                            "UE1.1": 0,
+                            "UE1.2": 0,
+                            "UE1.3": 0,
+                            "UE1.4": 0,
+                            "UE1.5": 1,
+                            "UE1.6": 0
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17525",
+                        "date": "2025-01-14T00:00:00+01:00",
+                        "heure_debut": "00:00",
+                        "heure_fin": "00:00"
+                    }
+                ]
+            },
+            "SAE1.06": {
+                "id": 7591,
+                "titre": "Environnement éco.",
+                "code_apogee": "IN1SA06",
+                "url": "/ScoDoc/INFO/Scolarite/Notes/moduleimpl_status?moduleimpl_id=7591",
+                "moyenne": {},
+                "evaluations": [
+                    {
+                        "id": 17393,
+                        "coef": "01.00",
+                        "date_debut": "2024-12-02T00:00:00+01:00",
+                        "date_fin": "2024-12-02T00:00:00+01:00",
+                        "description": "Partie Economie de la Saé",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "12.00",
+                            "min": "07.50",
+                            "max": "15.50",
+                            "moy": "12.01"
+                        },
+                        "poids": {
+                            "UE1.1": 0,
+                            "UE1.2": 0,
+                            "UE1.3": 0,
+                            "UE1.4": 0,
+                            "UE1.5": 0,
+                            "UE1.6": 1
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17393",
+                        "date": "2024-12-02T00:00:00+01:00",
+                        "heure_debut": "00:00",
+                        "heure_fin": "00:00"
+                    },
+                    {
+                        "id": 17394,
+                        "coef": "01.00",
+                        "date_debut": "2024-12-02T00:00:00+01:00",
+                        "date_fin": "2024-12-02T00:00:00+01:00",
+                        "description": "Partie Management de la Saé",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "10.25",
+                            "min": "07.25",
+                            "max": "17.25",
+                            "moy": "12.80"
+                        },
+                        "poids": {
+                            "UE1.1": 0,
+                            "UE1.2": 0,
+                            "UE1.3": 0,
+                            "UE1.4": 0,
+                            "UE1.5": 0,
+                            "UE1.6": 1
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17394",
+                        "date": "2024-12-02T00:00:00+01:00",
+                        "heure_debut": "00:00",
+                        "heure_fin": "00:00"
+                    },
+                    {
+                        "id": 17395,
+                        "coef": "01.00",
+                        "date_debut": "2024-12-02T00:00:00+01:00",
+                        "date_fin": "2024-12-02T00:00:00+01:00",
+                        "description": "Partie Communication de la Saé",
+                        "evaluation_type": 0,
+                        "note": {
+                            "value": "~",
+                            "min": "~",
+                            "max": "~",
+                            "moy": "~"
+                        },
+                        "poids": {
+                            "UE1.1": 0,
+                            "UE1.2": 0,
+                            "UE1.3": 0,
+                            "UE1.4": 0,
+                            "UE1.5": 0,
+                            "UE1.6": 1
+                        },
+                        "url": "/ScoDoc/INFO/Scolarite/Notes/evaluation_listenotes?evaluation_id=17395",
+                        "date": "2024-12-02T00:00:00+01:00",
+                        "heure_debut": "00:00",
+                        "heure_fin": "00:00"
+                    }
+                ]
+            }
+        },
+        "ues_capitalisees": {},
+        "semestre": {
+            "etapes": [
+                "BINFO1!21"
+            ],
+            "date_debut": "2024-09-06",
+            "date_fin": "2025-01-19",
+            "annee_universitaire": "2024 - 2025",
+            "numero": 1,
+            "inscription": "",
+            "groupes": [
+                {
+                    "id": 2128,
+                    "edt_id": null,
+                    "group_name": "B",
+                    "partition_id": 1154,
+                    "numero": 1,
+                    "partition": {
+                        "formsemestre_id": 507,
+                        "partition_name": "TD",
+                        "numero": 0,
+                        "show_in_lists": true,
+                        "id": 1154,
+                        "bul_show_rank": false,
+                        "groups_editable": true,
+                        "partition_id": 1154
+                    }
+                }
+            ],
+            "absences": {
+                "injustifie": 2,
+                "total": 2,
+                "metrique": "1/2 Jour."
+            },
+            "diplomation": "",
+            "situation": "Inscrit le 27/08/2024",
+            "diplome_dut120": false,
+            "diplome_dut120_descr": "",
+            "decision": {
+                "code": "",
+                "etat": "I",
+                "date": ""
+            },
+            "decision_ue": [],
+            "autorisation_inscription": [],
+            "decision_rcue": [],
+            "descr_decisions_rcue": "",
+            "descr_decisions_niveaux": "",
+            "decision_annee": null,
+            "notes": {
+                "value": "~",
+                "min": "~",
+                "moy": "~",
+                "max": "~"
+            },
+            "rang": {
+                "value": "-",
+                "total": 72,
+                "groupes": {}
+            }
+        },
+        "ues": {
+            "UE1.1": {
+                "id": 141,
+                "titre": "Développer des applications informatiques simples",
+                "numero": 0,
+                "type": 0,
+                "color": "#b80004",
+                "competence": null,
+                "moyenne": {
+                    "value": "11.00",
+                    "min": "00.73",
+                    "max": "16.62",
+                    "moy": "10.28",
+                    "rang": "31",
+                    "total": 75,
+                    "groupes": {}
+                },
+                "bonus": "00.00",
+                "malus": "00.00",
+                "capitalise": null,
+                "ressources": {
+                    "R1.01": {
+                        "id": 7574,
+                        "coef": 42,
+                        "moyenne": "~"
+                    },
+                    "R1.02": {
+                        "id": 7575,
+                        "coef": 12,
+                        "moyenne": "11.00"
+                    },
+                    "R1.10": {
+                        "id": 7583,
+                        "coef": 6,
+                        "moyenne": "~"
+                    }
+                },
+                "saes": {
+                    "SAE1.01": {
+                        "id": 7586,
+                        "coef": 40,
+                        "moyenne": "~"
+                    }
+                }
+            },
+            "UE1.2": {
+                "id": 136,
+                "titre": "Appréhender et construire des algorithmes",
+                "numero": 1,
+                "type": 0,
+                "color": "#f97b3d",
+                "competence": null,
+                "moyenne": {
+                    "value": "06.45",
+                    "min": "01.11",
+                    "max": "19.55",
+                    "moy": "11.26",
+                    "rang": "61",
+                    "total": 75,
+                    "groupes": {}
+                },
+                "bonus": "00.00",
+                "malus": "00.00",
+                "capitalise": null,
+                "ressources": {
+                    "R1.01": {
+                        "id": 7574,
+                        "coef": 24,
+                        "moyenne": "~"
+                    },
+                    "R1.03": {
+                        "id": 7576,
+                        "coef": 3,
+                        "moyenne": "~"
+                    },
+                    "R1.04": {
+                        "id": 7577,
+                        "coef": 3,
+                        "moyenne": "16.00"
+                    },
+                    "R1.06": {
+                        "id": 7579,
+                        "coef": 15,
+                        "moyenne": "08.75"
+                    },
+                    "R1.07": {
+                        "id": 7580,
+                        "coef": 15,
+                        "moyenne": "02.25"
+                    }
+                },
+                "saes": {
+                    "SAE1.02": {
+                        "id": 7587,
+                        "coef": 40,
+                        "moyenne": "~"
+                    }
+                }
+            },
+            "UE1.3": {
+                "id": 137,
+                "titre": "Installer et configurer un poste de travail",
+                "numero": 2,
+                "type": 0,
+                "color": "#feb40b",
+                "competence": null,
+                "moyenne": {
+                    "value": "13.74",
+                    "min": "03.75",
+                    "max": "18.38",
+                    "moy": "14.31",
+                    "rang": "48",
+                    "total": 75,
+                    "groupes": {}
+                },
+                "bonus": "00.00",
+                "malus": "00.00",
+                "capitalise": null,
+                "ressources": {
+                    "R1.03": {
+                        "id": 7576,
+                        "coef": 21,
+                        "moyenne": "~"
+                    },
+                    "R1.04": {
+                        "id": 7577,
+                        "coef": 21,
+                        "moyenne": "16.00"
+                    },
+                    "R1.10": {
+                        "id": 7583,
+                        "coef": 12,
+                        "moyenne": "~"
+                    },
+                    "R1.11": {
+                        "id": 7584,
+                        "coef": 6,
+                        "moyenne": "~"
+                    }
+                },
+                "saes": {
+                    "SAE1.03": {
+                        "id": 7588,
+                        "coef": 40,
+                        "moyenne": "12.56"
+                    }
+                }
+            },
+            "UE1.4": {
+                "id": 138,
+                "titre": "Concevoir et mettre en place une base de données à partir d’un cahier des charges client",
+                "numero": 3,
+                "type": 0,
+                "color": "#80cb3f",
+                "competence": null,
+                "moyenne": {
+                    "value": "08.38",
+                    "min": "00.45",
+                    "max": "19.30",
+                    "moy": "10.80",
+                    "rang": "50",
+                    "total": 75,
+                    "groupes": {}
+                },
+                "bonus": "00.00",
+                "malus": "00.00",
+                "capitalise": null,
+                "ressources": {
+                    "R1.05": {
+                        "id": 7578,
+                        "coef": 36,
+                        "moyenne": "08.38"
+                    },
+                    "R1.06": {
+                        "id": 7579,
+                        "coef": 18,
+                        "moyenne": "08.75"
+                    },
+                    "R1.09": {
+                        "id": 7582,
+                        "coef": 6,
+                        "moyenne": "07.25"
+                    }
+                },
+                "saes": {
+                    "SAE1.04": {
+                        "id": 7589,
+                        "coef": 40,
+                        "moyenne": "~"
+                    }
+                }
+            },
+            "UE1.5": {
+                "id": 139,
+                "titre": "Identifier les besoins métiers des clients et des utilisateurs",
+                "numero": 4,
+                "type": 0,
+                "color": "#05162e",
+                "competence": null,
+                "moyenne": {
+                    "value": "08.54",
+                    "min": "01.93",
+                    "max": "17.43",
+                    "moy": "11.15",
+                    "rang": "60",
+                    "total": 75,
+                    "groupes": {}
+                },
+                "bonus": "00.00",
+                "malus": "00.00",
+                "capitalise": null,
+                "ressources": {
+                    "R1.02": {
+                        "id": 7575,
+                        "coef": 18,
+                        "moyenne": "11.00"
+                    },
+                    "R1.08": {
+                        "id": 7581,
+                        "coef": 27,
+                        "moyenne": "06.90"
+                    },
+                    "R1.11": {
+                        "id": 7584,
+                        "coef": 15,
+                        "moyenne": "~"
+                    }
+                },
+                "saes": {
+                    "SAE1.05": {
+                        "id": 7590,
+                        "coef": 40,
+                        "moyenne": "~"
+                    }
+                }
+            },
+            "UE1.6": {
+                "id": 140,
+                "titre": "Identifier ses aptitudes pour travailler dans une équipe",
+                "numero": 5,
+                "type": 0,
+                "color": "#548687",
+                "competence": null,
+                "moyenne": {
+                    "value": "10.45",
+                    "min": "00.00",
+                    "max": "16.58",
+                    "moy": "12.10",
+                    "rang": "65",
+                    "total": 76,
+                    "groupes": {}
+                },
+                "bonus": "00.00",
+                "malus": "00.00",
+                "capitalise": null,
+                "ressources": {
+                    "R1.02": {
+                        "id": 7575,
+                        "coef": 5,
+                        "moyenne": "11.00"
+                    },
+                    "R1.08": {
+                        "id": 7581,
+                        "coef": 11,
+                        "moyenne": "06.90"
+                    },
+                    "R1.09": {
+                        "id": 7582,
+                        "coef": 11,
+                        "moyenne": "07.25"
+                    },
+                    "R1.10": {
+                        "id": 7583,
+                        "coef": 11,
+                        "moyenne": "~"
+                    },
+                    "R1.11": {
+                        "id": 7584,
+                        "coef": 11,
+                        "moyenne": "~"
+                    },
+                    "R1.12": {
+                        "id": 7585,
+                        "coef": 11,
+                        "moyenne": "14.50"
+                    }
+                },
+                "saes": {
+                    "SAE1.06": {
+                        "id": 7591,
+                        "coef": 40,
+                        "moyenne": "11.12"
+                    }
+                }
+            }
+        }
+    },
+    "absences": {
+        "2024-10-15": [
+            {
+                "idAbs": 91440,
+                "idJustif": [],
+                "debut": 9,
+                "fin": 10.5,
+                "statut": "retard",
+                "justifie": false,
+                "enseignant": "sebabarr",
+                "matiereComplet": 7582,
+                "dateFin": "2024-10-15"
+            }
+        ],
+        "2024-11-07": [
+            {
+                "idAbs": 97228,
+                "idJustif": [],
+                "debut": 13,
+                "fin": 14.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "ecukalla",
+                "matiereComplet": 7583,
+                "dateFin": "2024-11-07"
+            }
+        ],
+        "2024-09-11": [
+            {
+                "idAbs": 79917,
+                "idJustif": [],
+                "debut": 8,
+                "fin": 10,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "isabrobb",
+                "matiereComplet": "Non défini",
+                "dateFin": "2024-09-11"
+            },
+            {
+                "idAbs": 79882,
+                "idJustif": [],
+                "debut": 13,
+                "fin": 15,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "daviauge",
+                "matiereComplet": "Non défini",
+                "dateFin": "2024-09-11"
+            }
+        ],
+        "2024-09-13": [
+            {
+                "idAbs": 80790,
+                "idJustif": [],
+                "debut": 10,
+                "fin": 11.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "sebabarr",
+                "matiereComplet": 7582,
+                "dateFin": "2024-09-13"
+            }
+        ],
+        "2024-10-17": [
+            {
+                "idAbs": 92527,
+                "idJustif": [],
+                "debut": 10,
+                "fin": 11.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "ecukalla",
+                "matiereComplet": "Non défini",
+                "dateFin": "2024-10-17"
+            }
+        ],
+        "2024-11-15": [
+            {
+                "idAbs": 99025,
+                "idJustif": [],
+                "debut": 9.5,
+                "fin": 11.5,
+                "statut": "absent",
+                "justifie": false,
+                "enseignant": "sebabarr",
+                "matiereComplet": 7581,
+                "dateFin": "2024-11-15"
+            },
+            {
+                "idAbs": 99194,
+                "idJustif": [],
+                "debut": 11.5,
+                "fin": 12.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "ecukalla",
+                "matiereComplet": 7583,
+                "dateFin": "2024-11-15"
+            }
+        ],
+        "2024-10-18": [
+            {
+                "idAbs": 93059,
+                "idJustif": [],
+                "debut": 14,
+                "fin": 17,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "yannloye",
+                "matiereComplet": "Non défini",
+                "dateFin": "2024-10-18"
+            }
+        ],
+        "2024-09-17": [
+            {
+                "idAbs": 81643,
+                "idJustif": [],
+                "debut": 9,
+                "fin": 10.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "sebabarr",
+                "matiereComplet": 7582,
+                "dateFin": "2024-09-17"
+            },
+            {
+                "idAbs": 82055,
+                "idJustif": [],
+                "debut": 13,
+                "fin": 19,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "daviauge",
+                "matiereComplet": "Non défini",
+                "dateFin": "2024-09-17"
+            }
+        ],
+        "2024-11-08": [
+            {
+                "idAbs": 97618,
+                "idJustif": [],
+                "debut": 11.5,
+                "fin": 12.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "ecukalla",
+                "matiereComplet": 7583,
+                "dateFin": "2024-11-08"
+            }
+        ],
+        "2024-09-20": [
+            {
+                "idAbs": 83234,
+                "idJustif": [],
+                "debut": 8.5,
+                "fin": 10,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "sebabarr",
+                "matiereComplet": "Non défini",
+                "dateFin": "2024-09-20"
+            }
+        ],
+        "2024-09-24": [
+            {
+                "idAbs": 84442,
+                "idJustif": [],
+                "debut": 9,
+                "fin": 10.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "sebabarr",
+                "matiereComplet": 7582,
+                "dateFin": "2024-09-24"
+            }
+        ],
+        "2024-09-26": [
+            {
+                "idAbs": 85445,
+                "idJustif": [],
+                "debut": 14.5,
+                "fin": 16,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "ecukalla",
+                "matiereComplet": 7583,
+                "dateFin": "2024-09-26"
+            },
+            {
+                "idAbs": 85421,
+                "idJustif": [],
+                "debut": 13,
+                "fin": 14.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "ecukalla",
+                "matiereComplet": 7583,
+                "dateFin": "2024-09-26"
+            }
+        ],
+        "2024-09-27": [
+            {
+                "idAbs": 85705,
+                "idJustif": [],
+                "debut": 11.5,
+                "fin": 12.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "ecukalla",
+                "matiereComplet": 7583,
+                "dateFin": "2024-09-27"
+            },
+            {
+                "idAbs": 86012,
+                "idJustif": [],
+                "debut": 14,
+                "fin": 17,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "yannloye",
+                "matiereComplet": 7578,
+                "dateFin": "2024-09-27"
+            },
+            {
+                "idAbs": 85630,
+                "idJustif": [],
+                "debut": 10,
+                "fin": 11.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "sebabarr",
+                "matiereComplet": 7582,
+                "dateFin": "2024-09-27"
+            }
+        ],
+        "2024-10-01": [
+            {
+                "idAbs": 86795,
+                "idJustif": [],
+                "debut": 9,
+                "fin": 10.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "sebabarr",
+                "matiereComplet": 7582,
+                "dateFin": "2024-10-01"
+            }
+        ],
+        "2024-10-02": [
+            {
+                "idAbs": 87474,
+                "idJustif": [],
+                "debut": 13,
+                "fin": 16,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "isabrobb",
+                "matiereComplet": "Non défini",
+                "dateFin": "2024-10-02"
+            }
+        ],
+        "2024-10-25": [
+            {
+                "idAbs": 95390,
+                "idJustif": [],
+                "debut": 11.5,
+                "fin": 12.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "ecukalla",
+                "matiereComplet": "Non défini",
+                "dateFin": "2024-10-25"
+            }
+        ],
+        "2024-10-03": [
+            {
+                "idAbs": 87818,
+                "idJustif": [],
+                "debut": 13,
+                "fin": 14.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "ecukalla",
+                "matiereComplet": "Non défini",
+                "dateFin": "2024-10-03"
+            }
+        ],
+        "2024-10-04": [
+            {
+                "idAbs": 88195,
+                "idJustif": [],
+                "debut": 11.5,
+                "fin": 12.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "ecukalla",
+                "matiereComplet": 7583,
+                "dateFin": "2024-10-04"
+            },
+            {
+                "idAbs": 88163,
+                "idJustif": [],
+                "debut": 10,
+                "fin": 11.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "sebabarr",
+                "matiereComplet": 7582,
+                "dateFin": "2024-10-04"
+            }
+        ],
+        "2024-10-07": [
+            {
+                "idAbs": 89242,
+                "idJustif": [],
+                "debut": 13,
+                "fin": 14,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "sebabarr",
+                "matiereComplet": 7582,
+                "dateFin": "2024-10-07"
+            }
+        ],
+        "2024-10-08": [
+            {
+                "idAbs": 89418,
+                "idJustif": [],
+                "debut": 9,
+                "fin": 10.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "sebabarr",
+                "matiereComplet": 7582,
+                "dateFin": "2024-10-08"
+            }
+        ],
+        "2024-10-09": [
+            {
+                "idAbs": 90175,
+                "idJustif": [],
+                "debut": 15,
+                "fin": 17,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "clemtrot",
+                "matiereComplet": "Non défini",
+                "dateFin": "2024-10-09"
+            }
+        ],
+        "2024-11-05": [
+            {
+                "idAbs": 96448,
+                "idJustif": [],
+                "debut": 13,
+                "fin": 19,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "daviauge",
+                "matiereComplet": "Non défini",
+                "dateFin": "2024-11-05"
+            }
+        ],
+        "2024-10-10": [
+            {
+                "idAbs": 90499,
+                "idJustif": [],
+                "debut": 14.5,
+                "fin": 16,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "ecukalla",
+                "matiereComplet": "Non défini",
+                "dateFin": "2024-10-10"
+            }
+        ],
+        "2024-11-14": [
+            {
+                "idAbs": 98764,
+                "idJustif": [],
+                "debut": 13,
+                "fin": 14.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "ecukalla",
+                "matiereComplet": "Non défini",
+                "dateFin": "2024-11-14"
+            }
+        ],
+        "2024-11-20": [
+            {
+                "idAbs": 101188,
+                "idJustif": [],
+                "debut": 15,
+                "fin": 17,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "clemtrot",
+                "matiereComplet": "Non défini",
+                "dateFin": "2024-11-20"
+            }
+        ],
+        "2024-11-28": [
+            {
+                "idAbs": 102944,
+                "idJustif": [],
+                "debut": 13,
+                "fin": 14.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "ecukalla",
+                "matiereComplet": "Non défini",
+                "dateFin": "2024-11-28"
+            }
+        ],
+        "2024-11-29": [
+            {
+                "idAbs": 103339,
+                "idJustif": [],
+                "debut": 11.5,
+                "fin": 12.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "ecukalla",
+                "matiereComplet": 7583,
+                "dateFin": "2024-11-29"
+            }
+        ],
+        "2024-12-03": [
+            {
+                "idAbs": 104310,
+                "idJustif": [],
+                "debut": 8.5,
+                "fin": 10.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "sebabarr",
+                "matiereComplet": 7581,
+                "dateFin": "2024-12-03"
+            }
+        ],
+        "2024-12-05": [
+            {
+                "idAbs": 105097,
+                "idJustif": [],
+                "debut": 13,
+                "fin": 14.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "ecukalla",
+                "matiereComplet": "Non défini",
+                "dateFin": "2024-12-05"
+            }
+        ],
+        "2024-12-06": [
+            {
+                "idAbs": 105442,
+                "idJustif": [],
+                "debut": 11,
+                "fin": 13,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "salmnaji",
+                "matiereComplet": 7585,
+                "dateFin": "2024-12-06"
+            }
+        ],
+        "2024-12-10": [
+            {
+                "idAbs": 106705,
+                "idJustif": [],
+                "debut": 14,
+                "fin": 17,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "isabrobb",
+                "matiereComplet": 7574,
+                "dateFin": "2024-12-10"
+            },
+            {
+                "idAbs": 106422,
+                "idJustif": [],
+                "debut": 10,
+                "fin": 12,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "sebabarr",
+                "matiereComplet": 7581,
+                "dateFin": "2024-12-10"
+            }
+        ],
+        "2024-12-12": [
+            {
+                "idAbs": 107329,
+                "idJustif": [],
+                "debut": 13,
+                "fin": 14.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "ecukalla",
+                "matiereComplet": 7583,
+                "dateFin": "2024-12-12"
+            }
+        ],
+        "2024-12-11": [
+            {
+                "idAbs": 107434,
+                "idJustif": [],
+                "debut": 15,
+                "fin": 17,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "clemtrot",
+                "matiereComplet": "Non défini",
+                "dateFin": "2024-12-11"
+            }
+        ],
+        "2024-12-13": [
+            {
+                "idAbs": 107668,
+                "idJustif": [],
+                "debut": 11,
+                "fin": 13,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "salmnaji",
+                "matiereComplet": 7585,
+                "dateFin": "2024-12-13"
+            }
+        ],
+        "2024-12-17": [
+            {
+                "idAbs": 108561,
+                "idJustif": [],
+                "debut": 14,
+                "fin": 17,
+                "statut": "absent",
+                "justifie": false,
+                "enseignant": "daviauge",
+                "matiereComplet": "Non défini",
+                "dateFin": "2024-12-17"
+            }
+        ],
+        "2024-12-18": [
+            {
+                "idAbs": 108882,
+                "idJustif": [],
+                "debut": 15,
+                "fin": 17,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "clemtrot",
+                "matiereComplet": "Non défini",
+                "dateFin": "2024-12-18"
+            }
+        ],
+        "2024-12-19": [
+            {
+                "idAbs": 109062,
+                "idJustif": [],
+                "debut": 13,
+                "fin": 14.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "ecukalla",
+                "matiereComplet": "Non défini",
+                "dateFin": "2024-12-19"
+            }
+        ],
+        "2024-12-20": [
+            {
+                "idAbs": 109342,
+                "idJustif": [],
+                "debut": 11,
+                "fin": 13,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "salmnaji",
+                "matiereComplet": 7585,
+                "dateFin": "2024-12-20"
+            }
+        ],
+        "2025-01-09": [
+            {
+                "idAbs": 110665,
+                "idJustif": [],
+                "debut": 13,
+                "fin": 14.5,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "ecukalla",
+                "matiereComplet": "Non défini",
+                "dateFin": "2025-01-09"
+            }
+        ],
+        "2025-01-14": [
+            {
+                "idAbs": 111357,
+                "idJustif": [],
+                "debut": 8,
+                "fin": 9,
+                "statut": "present",
+                "justifie": false,
+                "enseignant": "suzyrand",
+                "matiereComplet": "Non défini",
+                "dateFin": "2025-01-14"
+            }
+        ]
+    }
+}
