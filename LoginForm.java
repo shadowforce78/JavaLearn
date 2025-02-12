@@ -52,7 +52,7 @@ public class LoginForm extends JFrame {
 
     private void callApi(String userId, String password) {
         try {
-            String url = String.format("http://saumondeluxe.ddns.net:63246/uvsq/bulletin/%s+%s", userId, password);
+            String url = String.format("http://api.saumondeluxe.com/uvsq/bulletin/%s+%s", userId, password);
             HttpClient client = HttpClient.newHttpClient();
             HttpRequest request = HttpRequest.newBuilder()
                     .uri(URI.create(url))
